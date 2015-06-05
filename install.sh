@@ -1,7 +1,7 @@
 #!/bin/bash
 
 dir=~/dotfiles
-files=".bashrc .vimrc .vim"
+files=".bashrc .vimrc .vim .git-prompt.sh"
 
 mkdir -p $dir/backup
 
