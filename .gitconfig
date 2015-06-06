@@ -1,0 +1,7 @@
+[user]
+	name = Shivan Sornarajah
+	email = github@sornars.com
+[core]
+	excludesfile = /home/ssornarajah/.global-gitignore
+[push]
+	default = simple
