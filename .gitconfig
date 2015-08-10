@@ -1,7 +1,8 @@
 [user]
 	name = Shivan Sornarajah
-	email = github@sornars.com
+	email = sornars@sornars.com
 [core]
 	excludesfile = /home/ssornarajah/.global-gitignore
+	autocrlf = input
 [push]
 	default = simple
