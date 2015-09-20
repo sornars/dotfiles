@@ -25,3 +25,4 @@ colorscheme molokai
 set number
 highlight ColorColumn ctermbg=7
 set list
+syntax on
