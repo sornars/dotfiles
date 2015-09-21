@@ -1,7 +1,7 @@
 #!/bin/bash
 
 dir=~/dotfiles
-files=".bashrc .vimrc .vim .git-prompt.sh .gitconfig .global-gitignore"
+files=".bashrc .vimrc .vim .git-prompt.sh .gitconfig .global-gitignore .tmux.conf"
 
 mkdir -p $dir/backup
 
