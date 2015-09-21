@@ -23,6 +23,8 @@ set shiftwidth=4
 set expandtab
 colorscheme molokai
 set number
+set colorcolumn=80
 highlight ColorColumn ctermbg=7
 set list
 syntax on
+set cursorline
