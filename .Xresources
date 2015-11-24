@@ -1,6 +1,6 @@
 ! TERM
 *xterm*termName: xterm-256color
-
+*xterm*selectToClipboard: true
 ! Molokai theme
 *xterm*background: #101010
 *xterm*foreground: #d0d0d0
