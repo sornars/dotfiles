@@ -25,3 +25,14 @@
 ! Default font
 ***faceName: Inconsolata
 ***faceSize: 13
+
+! Specific terminal settings
+URxvt*scrollBar: true
+URxvt*scrollBar_right: true
+URxvt*font: xft:Inconsolata:size=13
+URxvt.perl-ext-common: tabbed
+URxvt.tabbed.tabbar-fg: 0
+URxvt.tabbed.tabbar-bg: 2
+URxvt.tabbed.tab-fg: 0
+URxvt.tabbed.tab-bg: 6
+
