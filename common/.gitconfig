@@ -4,6 +4,7 @@
 [core]
 	excludesfile = /home/sornars/.global-gitignore
 	autocrlf = input
+	editor = vim
 [push]
 	default = simple
 [color]
