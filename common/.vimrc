@@ -14,6 +14,10 @@ Plugin 'jistr/vim-nerdtree-tabs'
 Plugin 'tpope/vim-fugitive'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'kien/ctrlp.vim'
+Plugin 'vim-airline/vim-airline'
+Plugin 'xolox/vim-misc'
+Plugin 'xolox/vim-easytags'
+Plugin 'majutsushi/tagbar'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -28,3 +32,8 @@ highlight ColorColumn ctermbg=7
 set list
 syntax on
 set cursorline
+let g:airline#extensions#tabline#enabled = 1
+
+"Custom key mappings
+nmap <F8> :TagbarToggle<CR>
+
