@@ -38,5 +38,7 @@ set updatetime=250
 set laststatus=2
 
 "Custom key mappings
+let mapleader=' '
+nnoremap <leader>. :CtrlPTag<cr>
 nmap <F8> :TagbarToggle<CR>
 
