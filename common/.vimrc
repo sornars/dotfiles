@@ -18,6 +18,7 @@ Plugin 'vim-airline/vim-airline'
 Plugin 'xolox/vim-misc'
 Plugin 'xolox/vim-easytags'
 Plugin 'majutsushi/tagbar'
+Plugin 'airblade/vim-gitgutter'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -33,6 +34,7 @@ set list
 syntax on
 set cursorline
 let g:airline#extensions#tabline#enabled = 1
+set updatetime=250
 
 "Custom key mappings
 nmap <F8> :TagbarToggle<CR>
