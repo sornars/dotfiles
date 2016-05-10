@@ -35,6 +35,7 @@ syntax on
 set cursorline
 let g:airline#extensions#tabline#enabled = 1
 set updatetime=250
+set laststatus=2
 
 "Custom key mappings
 nmap <F8> :TagbarToggle<CR>
