@@ -19,6 +19,7 @@ Plugin 'xolox/vim-misc'
 Plugin 'xolox/vim-easytags'
 Plugin 'majutsushi/tagbar'
 Plugin 'airblade/vim-gitgutter'
+Plugin 'xolox/vim-session'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -36,6 +37,9 @@ set cursorline
 let g:airline#extensions#tabline#enabled = 1
 set updatetime=250
 set laststatus=2
+let g:session_autosave_period = 5
+let g:session_autoload = 'yes'
+let g:session_autosave = 'yes'
 
 "Custom key mappings
 let mapleader=' '
