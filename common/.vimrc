@@ -41,9 +41,12 @@ let g:session_autosave_period = 5
 let g:session_autoload = 'yes'
 let g:session_autosave = 'yes'
 let g:easytags_dynamic_files = 1
+let g:easytags_auto_highlight = 0
 
 "Custom key mappings
 let mapleader=' '
 nnoremap <leader>. :CtrlPTag<cr>
-nmap <F8> :TagbarToggle<CR>
+nmap <F8> :TagbarToggle<cr>
+nnoremap <leader>b :bnext<cr>
+nnoremap <leader>p :bprevious<cr>
 
