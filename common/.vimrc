@@ -40,6 +40,7 @@ set laststatus=2
 let g:session_autosave_period = 5
 let g:session_autoload = 'yes'
 let g:session_autosave = 'yes'
+let g:easytags_dynamic_files = 1
 
 "Custom key mappings
 let mapleader=' '
