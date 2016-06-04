@@ -5,7 +5,7 @@
 [[ $- != *i* ]] && return
 
 alias ls='ls --color=auto'
-alias annie='ssh annie.sornars.com -t "tmux attach-session -t general || tmux new-session -s general"'
+alias annie='mosh annie.sornars.com -- tmux new-session -A -s general'
 
 source ~/.git-prompt.sh
 GIT_PS1_SHOWDIRTYSTATE=true
