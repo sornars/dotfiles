@@ -159,3 +159,13 @@ bar {
 bindsym XF86AudioRaiseVolume exec "amixer -q sset Master,0 1+ unmute"
 bindsym XF86AudioLowerVolume exec "amixer -q sset Master,0 1- unmute"
 bindsym XF86AudioMute exec "amixer -q sset Master,0 toggle"
+
+# Tabbed by default
+workspace_layout tabbed
+
+# Dropbox
+exec --no-startup-id dropbox start
+
+# 1Password
+# exec --no-startup-id wine ~/.wine/drive_c/Program\ Files\ \(x86\)/1Password\ 4/1Password.exe >> /tmp/1pwd-wine.txt 2>&1 &
+exec --no-startup-id wine ~/.wine/drive_c/Program\ Files\ \(x86\)/1Password\ 4/Agile1pAgent.exe >> /tmp/1pwd-wine.txt 2>&1 &
