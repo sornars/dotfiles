@@ -4,7 +4,6 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
-alias ls='ls --color=auto'
 alias annie='ssh annie.sornars.com -t "tmux new-session -A -s general"'
 
 source ~/.git-prompt.sh
