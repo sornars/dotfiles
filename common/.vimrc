@@ -12,14 +12,12 @@ Plugin 'tomasr/molokai'
 Plugin 'scrooloose/nerdtree'
 Plugin 'jistr/vim-nerdtree-tabs'
 Plugin 'tpope/vim-fugitive'
-Plugin 'Valloric/YouCompleteMe'
 Plugin 'kien/ctrlp.vim'
 Plugin 'vim-airline/vim-airline'
 Plugin 'xolox/vim-misc'
 Plugin 'xolox/vim-easytags'
 Plugin 'majutsushi/tagbar'
 Plugin 'airblade/vim-gitgutter'
-Plugin 'xolox/vim-session'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
