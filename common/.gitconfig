@@ -2,7 +2,7 @@
 	name = Shivan Sornarajah
 	email = sornars@sornars.com
 [core]
-	excludesfile = /home/sornars/.global-gitignore
+	excludesfile = ~/.global-gitignore
 	autocrlf = input
 	editor = vim
 [push]
