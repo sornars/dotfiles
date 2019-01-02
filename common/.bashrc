@@ -1,10 +1,5 @@
-#
-# ~/.bashrc
-#
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
-
-alias annie='ssh annie.sornars.com -t "tmux new-session -A -s general"'
 
 source ~/.git-prompt.sh
 GIT_PS1_SHOWDIRTYSTATE=true

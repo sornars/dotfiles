@@ -9,13 +9,8 @@ Plugin 'gmarik/Vundle.vim'
 
 "My Plugins"
 Plugin 'tomasr/molokai'
-Plugin 'scrooloose/nerdtree'
-Plugin 'jistr/vim-nerdtree-tabs'
-Plugin 'tpope/vim-fugitive'
 Plugin 'kien/ctrlp.vim'
 Plugin 'vim-airline/vim-airline'
-Plugin 'xolox/vim-misc'
-Plugin 'xolox/vim-easytags'
 Plugin 'majutsushi/tagbar'
 Plugin 'airblade/vim-gitgutter'
 
